@@ -2,6 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "HTML + CSS",
+    "Javascript",
     "React",
     "Angular",
     "TypeScript",
@@ -9,14 +11,7 @@ export const About = () => {
     "Bootstrap",
   ];
 
-  const backendSkills = [
-    "Node.js",
-    "Express",
-    "C#",
-    ".NET",
-    "MongoDB",
-    "MySQL",
-  ];
+  const backendSkills = ["Node.js", "Express", "C#", ".NET", "MongoDB", "SQL"];
 
   return (
     <section
@@ -29,11 +24,14 @@ export const About = () => {
             Sobre Mim
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">Não sei</p>
+          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <p className="text-gray-300 mb-6">
+              Tenho 25 anos, sou analista de sistemas e estou cursando uma
+              Pós-Graduação pela UFRN/IMD, atuando em Desenvolvimento Fullstack.
+            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <div className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                 <h3 className="text-xl font-bold mb-4">Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
@@ -49,7 +47,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <div className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                 <h3 className="text-xl font-bold mb-4">Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
@@ -68,7 +66,7 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-4">🎓 Formação Acadêmica</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
@@ -82,7 +80,7 @@ export const About = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-4">
                 💼 Experiência Profissional
               </h3>
@@ -91,9 +89,26 @@ export const About = () => {
                   <h4 className="font-semibold">
                     Programa de Residência em Tecnologia da Informação
                   </h4>
+                  <p className="mb-2 mt-2">
+                    Pós-graduação pela UFRN, em parceria com o IMD/UFRN e o
+                    Tribunal de Contas do Estado (TCE-RN).
+                  </p>
                   <p>
-                    Curso de pós-graduação no formato de residência, parceria do
-                    IMD/UFRN com o TCE-RN.
+                    <strong>Atividades</strong>:
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                      <li>
+                      Desenvolvimento de soluções fullstack, criando Web APIs em C# com .NET (REST e padrões de projeto).
+                      </li>
+                      <li>
+                      Integração com frontend em Angular, com foco em performance, boas práticas e responsividade.
+                      </li>
+                      <li>
+                      Uso diário de metodologias ágeis (Scrum e Kanban).
+                      </li>
+                      <li>
+                      Versionamento de código com Git.
+                      </li>
+                    </ul>
                   </p>
                 </div>
               </div>

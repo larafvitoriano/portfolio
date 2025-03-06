@@ -10,7 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
-            <span>🤍</span>
+            <img src="src\assets\icon.jpg" alt="Logo" className="w-10"/>
           </a>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-[#6B7280]"
@@ -35,7 +35,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               href="#projects"
               className="text-[#E0E0E0] hover:text-[#A0C4FF] transition-colors"
             >
-              Portfólio
+              Projetos
             </a>
             <a
               href="#contact"

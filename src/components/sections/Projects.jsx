@@ -10,7 +10,7 @@ export const Projects = () => {
         <div className="max-w-5xl mx-auto px-4">
           {/* TÍTULO */}
           <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-blue-500 to-purple-400 text-transparent bg-clip-text">
-            Meus Projetos
+            Projetos
           </h2>
           {/* GRID DE PROJETOS */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -18,10 +18,10 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">FSW Donalds</h3>
               <p className="text-gray-400 mb-4">
-                Desenvolvido na Fullstack Week.
+                Aplicação de self-checkout para totem de atendimento.
               </p>
               <div>
-                {["React", "Node.js", "AWS"].map((tech, key) => {
+                {["React", "TypeScript", "Prisma", "Next.js", "Tailwind CSS"].map((tech, key) => {
                   return (
                     <span
                       key={key}
@@ -36,10 +36,10 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://fsw-donalds-lemon.vercel.app/fsw-donalds"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project
+                  Visualizar
                 </a>
               </div>
             </div>
@@ -47,12 +47,12 @@ export const Projects = () => {
 
             {/* PROJETO 2 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">FSW Donalds</h3>
+              <h3 className="text-xl font-bold mb-2">Spotify</h3>
               <p className="text-gray-400 mb-4">
-                Desenvolvido na Fullstack Week.
+                Réplica do Spotify.
               </p>
               <div>
-                {["React", "Node.js", "AWS"].map((tech, key) => {
+                {["React", "Node.js", "Express", "JavaScript"].map((tech, key) => {
                   return (
                     <span
                       key={key}
@@ -70,7 +70,7 @@ export const Projects = () => {
                   href="#"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project
+                  Visualizar
                 </a>
               </div>
             </div>
@@ -78,12 +78,12 @@ export const Projects = () => {
 
             {/* PROJETO 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">FSW Donalds</h3>
+              <h3 className="text-xl font-bold mb-2">Portfólio</h3>
               <p className="text-gray-400 mb-4">
-                Desenvolvido na Fullstack Week.
+              Projeto desenvolvido como currículo pessoal.
               </p>
               <div>
-                {["React", "Node.js", "AWS"].map((tech, key) => {
+                {["React", "TailwindCSS", "JavaScript", "Vite"].map((tech, key) => {
                   return (
                     <span
                       key={key}
@@ -98,10 +98,10 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="#home"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project
+                  Visualizar
                 </a>
               </div>
             </div>
@@ -109,12 +109,12 @@ export const Projects = () => {
 
             {/* PROJETO 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">FSW Donalds</h3>
+              <h3 className="text-xl font-bold mb-2">Optimus Tech</h3>
               <p className="text-gray-400 mb-4">
-                Desenvolvido na Fullstack Week.
+                Projeto de landing page desenvolvido durante o desafio 7 Days of Code, da Alura.
               </p>
               <div>
-                {["React", "Node.js", "AWS"].map((tech, key) => {
+                {["HTML + CSS"].map((tech, key) => {
                   return (
                     <span
                       key={key}
@@ -129,10 +129,10 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://larafvitoriano.github.io/7daysofcode-alura/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
-                  View Project
+                  Visualizar
                 </a>
               </div>
             </div>
